@@ -23,6 +23,8 @@
 
    ["-h" "--help"]])
 
+;; There should be predicates dictating coloring
+;; according to high and low values, but ran out of time...
 (defn print-info [data]
   (println "\033[0;32m" data "\033[0m"))
 
