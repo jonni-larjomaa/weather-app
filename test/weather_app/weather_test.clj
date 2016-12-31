@@ -1,6 +1,6 @@
-(ns claudator.weather-test
+(ns weather-app.weather-test
   (:require [clojure.test :refer :all]
-            [claudator.weather :refer :all]))
+            [weather-app.weather :refer :all]))
 
 (deftest custom-params
   (testing "can add custom params"

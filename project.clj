@@ -1,4 +1,4 @@
-(defproject claudator "0.1"
+(defproject weather-app "0.1"
   :description "claudator weather parser"
   :url "http://example.com/FIXME"
   :license {:name "MIT"
@@ -8,6 +8,6 @@
                  [http-kit "2.1.18"]
                  [org.clojure/data.json "0.2.6"]
                  [overtone/at-at "1.2.0"]]
-  :main ^:skip-aot claudator.core
+  :main ^:skip-aot weather-app.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

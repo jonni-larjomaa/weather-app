@@ -1,4 +1,4 @@
-(ns claudator.weather
+(ns weather-app.weather
   (:require [org.httpkit.client :as http]
             [clojure.data.json :as json]))
 
